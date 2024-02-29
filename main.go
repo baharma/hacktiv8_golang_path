@@ -20,6 +20,6 @@ func main() {
 	// fmt.Printf("halo Nama ku %s , umurku adalah %d, dan aku tinggal di %s", nama, age, address)
 
 	// fmt.Printf("tipe ini adalah %T \n", nama)
-	// tessfmt.Printf("tipe ini adalah %T \n", age)3
+	// tessfmt.Printf("tipe ini adalah %T \n", age)3s
 
 }
