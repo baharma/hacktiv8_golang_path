@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// name := "bahar"
 	// age := 99
@@ -100,4 +102,48 @@ func main() {
 	// 		fmt.Print("\n")
 
 	// 	}
+
+	// var number [4]int
+
+	// number = [4]int{1, 2, 3, 4}
+
+	// var name = [3]string{"yayan", "yuyun", "yeyen"}
+	// fmt.Printf("%#v\n", number)
+	// fmt.Printf("%#v\n", name)
+
+	// biji := [4]string{"apel", "titit", "tutut", "haha"}
+	// biji[0] = "haiya"
+
+	// fmt.Printf("%#v\n", biji)
+
+	// var buah = [3]string{"buah", "dada", "data"}
+
+	// for i, v := range buah {
+	// 	fmt.Printf("Index : %d , value :%s\n", i, v)
+	// }
+	// fmt.Println(strings.Repeat("#", 19))
+
+	// for i := 0; i < len(buah); i++ {
+	// 	fmt.Printf("index : %d , Value : %s\n", i, buah[i])
+	// }
+
+	// balances := [2][3]int{{4, 3, 4}, {5, 5, 3}}
+
+	// _ = balances
+	// for _, arr := range balances {
+	// 	for _, value := range arr {
+	// 		fmt.Printf("%d", value)
+	// 	}
+	// 	fmt.Println()
+	// }
+
+	var buah = make([]string, 3)
+
+	_ = buah
+
+	buah[0] = "Haiya"
+	buah[1] = "dada"
+	buah[2] = "haha"
+	fmt.Printf("%#v", buah)
+
 }
