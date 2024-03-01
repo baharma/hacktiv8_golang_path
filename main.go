@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// name := "bahar"
 	// age := 99
@@ -100,4 +102,27 @@ func main() {
 	// 		fmt.Print("\n")
 
 	// 	}
+
+	// var person map[string]string //deklarasi
+
+	// person = map[string]string{} // Inisialisasi
+
+	// person["name"] = "ariel"
+
+	// person["age"] = "23"
+
+	// person["address"] = "jalan Sudirman"
+
+	// fmt.Println("Name : ", person["name"])
+	// fmt.Println("age : ", person["age"])
+	// fmt.Println("address :", person["address"])
+
+	person := map[string]string{
+		"name":    "aditya",
+		"age":     "23",
+		"address": "Jalan Sudirman",
+	}
+	fmt.Println("name : ", person["name"])
+	fmt.Println("age :", person["age"])
+	fmt.Println("address :", person["address"])
 }
